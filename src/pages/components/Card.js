@@ -11,7 +11,7 @@ export default function Card({ pokemon }) {
                 height='128'
                 alt={pokemon.name} />
 
-            <p className={styles.id}>#{pokemon.id}</p>
+        
             <h3 className={styles.title}>{pokemon.name}</h3>
             <Link href='/' className={styles.btn}>
                 Detalhes
