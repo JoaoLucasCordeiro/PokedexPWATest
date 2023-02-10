@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.2em;
+    margin-bottom: 2em;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    margin-left: .5em;
+}
+
+.links_items {
+    display: flex;
+    list-style: none;
+}
+
+.links_items li {
+    margin-right: 1.3em;
+}
+
+.links_items li > * {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
