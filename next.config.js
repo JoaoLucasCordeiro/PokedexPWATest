@@ -5,6 +5,8 @@ const withPWA = require("next-pwa")({
 });
 
 const nextConfig = withPWA({
-  // next config
+  images: {
+    domains: ["raw.githubusercontent.com"],
+  }
 });
 module.exports = nextConfig;

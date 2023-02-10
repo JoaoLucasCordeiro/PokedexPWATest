@@ -2,10 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f9e110;
+    background-image: radial-gradient(circle 603px at 32.8% 51%, rgba(253, 185, 51, 1) 0%, rgba(253, 211, 117, 1) 90.3%);
     height: 150px;
     margin-top: 2em;
-    border-top: 3px solid #111;
     color: #333;
 }
 
