@@ -11,11 +11,13 @@ export default function Card({ pokemon }) {
                 height='128'
                 alt={pokemon.name} />
 
-           
+            <p className={styles.id}>#{pokemon.id}</p>
             <h3 className={styles.title}>{pokemon.name}</h3>
-            <Link href={`/pokemon/${pokemon.id}`} className={styles.btn}>
+            <Link href='/' className={styles.btn}>
                 Detalhes
             </Link>
         </div>
     )
 }
+
+// `/pokemon/${pokemon.id}`
